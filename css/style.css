@@ -32,7 +32,7 @@ textarea {
     cursor:pointer;
     font-size: 18px;
 	padding:16px 31px;
-	text-decoration:none;
+    text-decoration:none;
 }
 
 .button_round:hover{
@@ -72,7 +72,7 @@ header a{
 
 header li{
     display: inline;
-    padding: 0px 20px 0 20px;
+    padding: 0px 20px 0 50px;
 }
 
 header #logo{
@@ -155,6 +155,52 @@ header a:hover{
     width:128px;
 }
 
+/*Planos*/
+
+#planos {
+    margin-top: 20px;
+}
+
+#planos h2{
+    text-align: center;
+}
+
+#planos .plano{
+    float: left;
+    width: 33.3%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#planos .caixa-preço{
+    background: #E2E7E7;
+    color: #000000;
+    border: #D5D9D9 solid 1px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#planos .caixa-preço:hover{
+    box-shadow: 0 10px 15px 0 #324B4C;
+}
+
+#planos .main{
+    background-color: #2F8588;
+    color: #F0F5F5;
+    font-size: 25px;
+}
+
+#planos .caixa-preço li{
+    padding: 20px;
+    border-bottom: 1px solid #2F8588;
+    text-align: center;
+}
+
+#planos .caixa-preço .preço{
+    background-color: #D5D9D9;
+    font-size: 20px;
+}
 /*Sidebar*/
 aside#sidebar{
     float: right;
@@ -215,7 +261,8 @@ footer{
     #newsletter form,
     #infos .info,
     article#main-col,
-    aside#sidebar{
+    aside#sidebar,
+    #planos .plano{
         float: none;
         text-align: center;
         width: 100%;
