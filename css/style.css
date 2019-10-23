@@ -19,13 +19,38 @@ ul{
     padding: 0;
 }
 
+textarea {
+    resize: none;
+  }
+
+.button_round{
+    border-radius: 28px;
+    background: #2F8588;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor:pointer;
+    font-size: 18px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+.button_round:hover{
+    background: #378D90;
+}
+
 .button_1{
     height: 38px;
     background: #2F8588;
     border: none;
+    cursor:pointer;
     padding-left: 20px;
     padding-right: 20px;
     color: #F0F5F5;
+}
+
+.button_1:hover{
+    background: #378D90;
 }
 
 /*Header*/
@@ -42,6 +67,7 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: bold;
 }
 
 header li{
@@ -162,8 +188,8 @@ ul#contato li{
 footer{
     padding: 20px;
     margin-top: 40px;
-    color: #000000;
-    background-color: #F0F5F5;
+    color: #FFFFFF;
+    background-color: #324B4C;
     text-align: left;
 }
 
@@ -172,7 +198,7 @@ footer{
 }
 
 #direitos a{
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -181,7 +207,7 @@ footer{
 }
 
 /*Media Queries*/
-@media(max-width: 768px){
+@media(max-width: 1095px){
     header #logo,
     header nav,
     header nav li,
