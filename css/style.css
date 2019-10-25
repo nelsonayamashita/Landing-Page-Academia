@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #F0F5F5;
+    background-color: #FFFFFF;
 }
 
 /*Global*/
@@ -55,7 +55,7 @@ textarea {
 
 /*Header*/
 header{
-    background-color: #F0F5F5;
+    background-color: #FFFFFF;
     color: #000000;
     padding-top:30px;
     min-height:70px;
@@ -72,7 +72,7 @@ header a{
 
 header li{
     display: inline;
-    padding: 0px 20px 0 50px;
+    padding: 0px 20px 0 35px;
 }
 
 header #logo{
@@ -120,7 +120,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #000000;
-    background: #F0F5F5;
+    background: #FFFFFF;
     border-bottom: #2F8588 3px solid;
 }
 
@@ -147,8 +147,7 @@ header a:hover{
 #infos .info{
     float:left;
     text-align: center;
-    width: 30%;
-    padding: 10px;
+    width: 33.3%;   
 }
 
 #infos .info img{
@@ -173,7 +172,7 @@ header a:hover{
 }
 
 #planos .caixa-preço{
-    background: #E2E7E7;
+    background: #F0F5F5;
     color: #000000;
     border: #D5D9D9 solid 1px;
     list-style-type: none;
@@ -186,8 +185,8 @@ header a:hover{
 }
 
 #planos .main{
-    background-color: #2F8588;
-    color: #F0F5F5;
+    border-top: 5px solid #324B4C;
+    color: #000000;
     font-size: 25px;
 }
 
@@ -273,6 +272,10 @@ footer{
     }
 
     #showcase h1{
+        font-size: 45px;
+    }
+
+    #showcase h1{
         margin-top: 40px;
     }
 
@@ -284,5 +287,10 @@ footer{
     #newsletter form input[type="email"]{
         width: 100%;
         margin-bottom: 5px;
+    }
+
+    aside#sidebar{
+        padding-left: 0;
+        border-left: none;
     }
 }
