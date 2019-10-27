@@ -274,15 +274,6 @@ footer{
 }
 
 /*Custom font*/
-@font-face{
-    font-family: noricanCursive;
-    src: url(./fonts/Norican-Regular.ttf)
-}
-
-@font-face{
-    font-family: franklinm54;
-    src: url(./fonts/franklinm54-Regular.ttf)
-}
 
 @font-face{
     font-family: franklinm54;
