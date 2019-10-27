@@ -112,6 +112,10 @@ header a:hover{
     color: #73e650;
 }
 
+header label, #hamburger{
+    display: none;
+}
+
 /*Showcase*/
 #showcase{
     min-height: 600px;
@@ -119,10 +123,14 @@ header a:hover{
     background-size: cover;
     text-align: center;
     color: #F0F5F5;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 #showcase h1{
-    margin-top: 100px;
+    margin-top: 10px;
     font-size: 55px;
     margin-bottom: 10px;
 }
@@ -283,9 +291,15 @@ footer{
 
 /*Media Queries*/
 @media(max-width: 1095px){
+
+    @media(max-width: 568px){
+        header #logo{
+            font-size: 20px;
+        }
+    }
     header #logo,
     header nav,
-    header nav li,
+    header label,
     #newsletter h1,
     #newsletter form,
     #infos .info,
@@ -301,11 +315,32 @@ footer{
         padding-bottom:20px;
     }
 
-    #showcase h1{
-        font-size: 45px;
+    header label{
+        display: inline-block;
+        color: #000000;
+        background: #ffffff;
+        font-style: normal;
+        font-size: 32px;
+    }
+
+    header ul li{
+        display: block;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    header li{
+        padding: 0px;
+    }
+
+    header input:checked ~ ul{
+        display: block;
     }
 
     #showcase h1{
+        font-size: 40px;
         margin-top: 40px;
     }
 
@@ -323,4 +358,5 @@ footer{
         padding-left: 0;
         border-left: none;
     }
+
 }
