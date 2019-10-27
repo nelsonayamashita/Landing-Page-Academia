@@ -9,7 +9,7 @@ body {
 
 /*Global*/
 .container{
-    width:80%;
+    width:90%;
     margin:auto;
     overflow: hidden;
 }
@@ -25,7 +25,7 @@ textarea {
 
 .button_round{
     border-radius: 28px;
-    background: #2F8588;
+    background: #46B476;
     border: none;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -41,7 +41,7 @@ textarea {
 
 .button_1{
     height: 38px;
-    background: #2F8588;
+    background: #46B476;
     border: none;
     cursor:pointer;
     padding-left: 20px;
@@ -55,19 +55,18 @@ textarea {
 
 /*Header*/
 header{
-    background-color: #FFFFFF;
-    color: #000000;
-    padding-top:30px;
+    background-color: #373469;
+    color: #FFFFFF;
+    padding-top:10px;
     min-height:70px;
-    border-bottom: #2F8588 3px solid;
+    border-bottom: #46B476 3px solid;
 }
 
 header a{
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 26px;
 }
 
 header li{
@@ -76,25 +75,37 @@ header li{
 }
 
 header #logo{
+    font-size: 22px;
+    font-family: BebasNeue;
     float: left;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 header #logo h1{
     margin: 0;
 }
 
+
 header nav{
+    font-family: BebasNeue;
     float:right;
     margin-top: 14px;
+    letter-spacing: 2px;
 }
 
-header .highlight, header .current a{
-    color: #2F8588;
+header .highlight{
+    color: #46B476;
+    font-family: noricanCursive;
+}
+
+header .current a{
+    color: #46B476;
     font-weight: bold;
 }
 
 header a:hover{
-    color: #2F8588;
+    color: #46B476;
 }
 
 /*Showcase*/
@@ -119,9 +130,9 @@ header a:hover{
 /*Newsletter*/
 #newsletter{
     padding: 15px;
-    color: #000000;
-    background: #FFFFFF;
-    border-bottom: #2F8588 3px solid;
+    color: #FFFFFF;
+    background: #373469;
+    border-bottom: #46B476 3px solid;
 }
 
 #newsletter h1{
@@ -192,7 +203,7 @@ header a:hover{
 
 #planos .caixa-preço li{
     padding: 20px;
-    border-bottom: 1px solid #2F8588;
+    border-bottom: 1px solid #46B476;
     text-align: center;
 }
 
@@ -206,7 +217,7 @@ aside#sidebar{
     width: 30%;
     margin-top: 10px;
     padding-left: 10px;
-    border-left: #2F8588 3px solid;
+    border-left: #46B476 3px solid;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
@@ -234,7 +245,7 @@ footer{
     padding: 20px;
     margin-top: 40px;
     color: #FFFFFF;
-    background-color: #324B4C;
+    background-color: #373469;
     text-align: left;
 }
 
@@ -248,7 +259,18 @@ footer{
 }
 
 #direitos a:hover{
-    color: #2F8588;
+    color: #46B476;
+}
+
+/*Custom font*/
+@font-face{
+    font-family: noricanCursive;
+    src: url(./fonts/Norican-Regular.ttf)
+}
+
+@font-face{
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf)
 }
 
 /*Media Queries*/
